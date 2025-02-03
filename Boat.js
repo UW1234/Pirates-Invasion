@@ -8,7 +8,7 @@
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
-      this.image = loadImage("./boat.png");
+      this.image = loadImage("boat.png");
       this.boatPosition = boatPos;
       World.add(world, this.body);
     }
