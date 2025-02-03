@@ -15,8 +15,8 @@ var cooldown = 500;
 var gameWon = false; 
 
 function preload() {
-  backgroundImg = loadImage("./background.gif");
-  towerImage = loadImage("./tower.png");
+  backgroundImg = loadImage("background.gif");
+  towerImage = loadImage("tower.png");
 }
 
 function setup() {
