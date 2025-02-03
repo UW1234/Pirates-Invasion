@@ -6,7 +6,7 @@
     };
     this.r = 30;
     this.body = Bodies.circle(x, y, this.r, options);
-    this.image = loadImage("./cannonball.png");
+    this.image = loadImage("cannonball.png");
     this.trajectory = [];
     World.add(world, this.body);
   }
